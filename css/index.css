@@ -1,7 +1,31 @@
-*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
-.container{height: 100vh;width: 50000px;position: absolute;top: 0;left: 0;z-index: -1;}
-.container div{display: inline-block;}
-.container img{max-width: 375px;height: 100%;}
+*{margin: 0;padding: 0;list-style: none;}
+.container{width:100vw;height: 100vh;
+position: relative;
+overflow: hidden;}
+.container div{position: absolute;bottom: 0;}
+.item2{left: 375px;}
+.item3{left: 750px;}
+.item4{left: 1125px;}
+.item5{left: 1500px;}
+.item6{left: 1875px;}
+.item7{left: 2250px;}
+.item8{left: 2625px;}
+.item9{left: 3000px;}
+.item10{left: 3375px;}
+.item11{left: 3750px;}
+.item12{left: 4125px;}
+.item13{left: 4500px;}
+.item14{left: 4875px;}
+.item15{left: 5250px;}
+.item16{left: 5625px;}
+.item17{left: 6000px;}
+.item18{left: 6375px;}
+.item19{left: 6750px;}
+.item20{left: 7125px;}
+.item21{left: 7500px;}
+.item22{left: 7875px;}
+.item23{left: 8250px;}
+.container img{max-width: 100vw;}
 
 #menul{
 	width: 60px;
@@ -16,6 +40,6 @@
 }
 #menul img{width: 36px;
 	height: 36px;margin: 12px;}
-.menuD{display: none;z-index: 6;width: 100%;height: 100vh;background: blue;opacity: 0.8;}
+.menuD{display: none;z-index: 6;width: 100%;height: 100vh;background: blue;opacity: 0.8;position: absolute; top: 0;}
 .menuD ul{width:40vw;height:100vh; background: white;display: flex;flex-direction: column;}
 .menuD ul li{margin: 10px 4px;}
